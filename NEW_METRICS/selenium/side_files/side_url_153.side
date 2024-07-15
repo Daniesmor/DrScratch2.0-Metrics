@@ -1,0 +1,70 @@
+
+        {
+            "id": "9dc0fa81-13dc-47f0-939c-432a83559e08",
+            "version": "2.0",
+            "name": "scratch",
+            "url": "https://scratch.mit.edu/projects/1042547427/editor/",
+            "tests": [
+                {
+                    "id": "377805da-50bd-44dc-b16f-d9fe7ca4dd8f",
+                    "name": "scratch_downloader",
+                    "commands": [
+                        {
+                            "id": "a7bdfa09-d6c4-4fe8-9edc-990fa531829a",
+                            "comment": "",
+                            "command": "open",
+                            "target": "https://scratch.mit.edu/projects/144268978/editor/",
+                            "targets": [],
+                            "value": ""
+                        },
+                        {
+                            "id": "c4e249b3-f911-492a-acf9-7cac5223933d",
+                            "comment": "",
+                            "command": "setWindowSize",
+                            "target": "550x691",
+                            "targets": [],
+                            "value": ""
+                        },
+                        {
+                            "id": "9546efee-c389-4bff-a5a7-a5bd98370b48",
+                            "comment": "",
+                            "command": "click",
+                            "target": "xpath=//img[contains(@src,'data:image/svg+xml;base64,PHN2ZyB3aWR0d")],
+                            "targets": [
+                                ["css=.menu-bar_active_2Lfqh > img:nth-child(1)", "css:finder"],
+                                ["xpath=//img[contains(@src,'data:image/svg+xml;base64,PHN2ZyB3aWR0d')]", "xpath:img"],
+                                ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/img", "xpath:idRelative"],
+                                ["xpath=//div[3]/img", "xpath:position"]
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "id": "f98d45db-730b-46d1-baf5-08838a220f3b",
+                            "comment": "",
+                            "command": "click",
+                            "target": "css=.menu_menu-item_3EwYA:nth-child(3)",
+                            "targets": [
+                                ["css=.menu_menu-item_3EwYA:nth-child(3)", "css:finder"],
+                                ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div/ul/li[3]", "xpath:idRelative"],
+                                ["xpath=//li[3]", "xpath:position"],
+                                ["xpath=//li[contains(.,'Save to your computer')]", "xpath:innerText"]
+                            ],
+                            "value": ""
+                        }
+                    ]
+                }
+            ],
+            "suites": [
+                {
+                    "id": "31c8b53f-b8ce-4cf6-a939-3f2173c7c7d5",
+                    "name": "Default Suite",
+                    "persistSession": false,
+                    "parallel": false,
+                    "timeout": 300,
+                    "tests": ["377805da-50bd-44dc-b16f-d9fe7ca4dd8f"]
+                }
+            ],
+            "urls": ["https://scratch.mit.edu/", "https://scratch.mit.edu/projects/144268978/editor/"],
+            "plugins": []
+        }
+        

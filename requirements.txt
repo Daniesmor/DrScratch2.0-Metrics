@@ -2,3 +2,5 @@ jupyter
 matplotlib
 pandas
 seaborn
+selenium
+scratch3.py==0.3.4
