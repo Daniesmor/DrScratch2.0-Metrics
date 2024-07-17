@@ -71,6 +71,9 @@ for link in links:
                                     if title_text:
                                         project_name = title_text.text.strip()
                                         
+                                        with open('all_project_names.sb3', 'a') as project_names:
+                                        	project_names.write(project_name + '\n' + link)
+                                        
                                         # Verificar si el archivo .sb3 existe
                                         if check_file_exists(project_name, sb3_folder):
                                             print(f"The file {project_name}.sb3 exists in the folder.")        
